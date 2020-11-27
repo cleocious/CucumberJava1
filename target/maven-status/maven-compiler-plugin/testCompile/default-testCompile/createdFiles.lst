@@ -1,0 +1,7 @@
+StepDefinitions/DatepickerSteps.class
+StepDefinitions/MenuSteps.class
+StepDefinitions/RadiobuttonSteps.class
+StepDefinitions/TestRunner.class
+StepDefinitions/DragAndDropSteps.class
+StepDefinitions/Hooks.class
+StepDefinitions/LoginSteps.class

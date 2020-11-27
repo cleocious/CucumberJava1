@@ -1,0 +1,875 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-27T21:25:12.506Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13656958000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Check departure date is selected correctly",
+        "description": "",
+        "id": "feature-to-test-date-picker-functionality;check-departure-date-is-selected-correctly;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1079993000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3665251000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on travel departure date selection page",
+            "match": {
+              "location": "StepDefinitions.DatepickerSteps.user_is_on_travel_departure_date_selection_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3077767000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects \"20\" \"September\" \"2022\" in date picker",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"September\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.DatepickerSteps.user_selects_departure_date_in_date_picker(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41425000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "departure date is selected",
+            "match": {
+              "location": "StepDefinitions.DatepickerSteps.departure_date_is_selected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-27T21:25:34.111Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2161198000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Check departure date is selected correctly",
+        "description": "",
+        "id": "feature-to-test-date-picker-functionality;check-departure-date-is-selected-correctly;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 384016000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2538985000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on travel departure date selection page",
+            "match": {
+              "location": "StepDefinitions.DatepickerSteps.user_is_on_travel_departure_date_selection_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1382222000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects \"15\" \"June\" \"2021\" in date picker",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"June\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.DatepickerSteps.user_selects_departure_date_in_date_picker(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "departure date is selected",
+            "match": {
+              "location": "StepDefinitions.DatepickerSteps.departure_date_is_selected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-27T21:25:40.588Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1059966000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check departure date is selected correctly",
+        "description": "",
+        "id": "feature-to-test-date-picker-functionality;check-departure-date-is-selected-correctly;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 137764000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3129467000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on travel departure date selection page",
+            "match": {
+              "location": "StepDefinitions.DatepickerSteps.user_is_on_travel_departure_date_selection_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2122587000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects \"6\" \"January\" \"2022\" in date picker",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"January\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.DatepickerSteps.user_selects_departure_date_in_date_picker(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "departure date is selected",
+            "match": {
+              "location": "StepDefinitions.DatepickerSteps.departure_date_is_selected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-27T21:25:47.045Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1324281000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Check departure date is selected correctly",
+        "description": "",
+        "id": "feature-to-test-date-picker-functionality;check-departure-date-is-selected-correctly;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 128778000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2306222000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on travel departure date selection page",
+            "match": {
+              "location": "StepDefinitions.DatepickerSteps.user_is_on_travel_departure_date_selection_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1783916000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects \"17\" \"October\" \"2021\" in date picker",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"17\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.DatepickerSteps.user_selects_departure_date_in_date_picker(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "departure date is selected",
+            "match": {
+              "location": "StepDefinitions.DatepickerSteps.departure_date_is_selected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test date picker functionality",
+    "description": "",
+    "id": "feature-to-test-date-picker-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/datepicker.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-27T21:25:52.595Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1158762000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check draggable object can be dragged to drop target",
+        "description": "",
+        "id": "feature-to-test-drag-and-drop-functionality;check-draggable-object-can-be-dragged-to-drop-target",
+        "after": [
+          {
+            "result": {
+              "duration": 126459000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1196565000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on drag and drop page",
+            "match": {
+              "location": "StepDefinitions.DragAndDropSteps.user_is_on_drag_and_drop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 298888000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user drags object to drop target",
+            "match": {
+              "location": "StepDefinitions.DragAndDropSteps.user_drags_object_to_drop_target()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17496000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "object is dropped into drop target",
+            "match": {
+              "location": "StepDefinitions.DragAndDropSteps.object_is_dropped_into_drop_target()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test drag and drop functionality",
+    "description": "",
+    "id": "feature-to-test-drag-and-drop-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/draganddrop.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-27T21:25:55.399Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1314052000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 177377000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1159476000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 415416000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39442000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "selects location",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.selects_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 713607000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30903000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-27T21:25:59.255Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1027619000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Check menu selection is successful",
+        "description": "",
+        "id": "feature-to-test-menu-selection-functionality;check-menu-selection-is-successful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 129124000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 950891000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on menu page",
+            "match": {
+              "location": "StepDefinitions.MenuSteps.user_is_on_menu_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221889000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects item \"Option 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Option 1\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.MenuSteps.user_selects_item(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30222000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "menu shows selected item \"Option 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Option 1\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.MenuSteps.menu_shows_selected_item(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-27T21:26:01.620Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1010760000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Check menu selection is successful",
+        "description": "",
+        "id": "feature-to-test-menu-selection-functionality;check-menu-selection-is-successful;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 230602000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 958667000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on menu page",
+            "match": {
+              "location": "StepDefinitions.MenuSteps.user_is_on_menu_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61431000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects item \"Option 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Option 2\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.MenuSteps.user_selects_item(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35639000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "menu shows selected item \"Option 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Option 2\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.MenuSteps.menu_shows_selected_item(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test menu selection functionality",
+    "description": "",
+    "id": "feature-to-test-menu-selection-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/menu.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-27T21:26:03.922Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1014201000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check that status of radiobuttons is correctly shown when the Check button is pressed",
+        "description": "",
+        "id": "feature-to-test-radiobutton-operations;check-that-status-of-radiobuttons-is-correctly-shown-when-the-check-button-is-pressed",
+        "after": [
+          {
+            "result": {
+              "duration": 179434000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 892018000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on radiobutton selection page",
+            "match": {
+              "location": "StepDefinitions.RadiobuttonSteps.user_is_on_radiobutton_selection_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47328000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects a radiobutton",
+            "match": {
+              "location": "StepDefinitions.RadiobuttonSteps.user_selects_a_radiobutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108165000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "presses the Check button",
+            "match": {
+              "location": "StepDefinitions.RadiobuttonSteps.presses_the_Check_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214568000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "status text shows correct status and value of selected radiobutton",
+            "match": {
+              "location": "StepDefinitions.RadiobuttonSteps.status_text_shows_correct_status_and_value_of_selected_radiobutton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-27T21:26:06.382Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1112138000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Check that status of radiobuttons is correctly shown when the Reset button is pressed",
+        "description": "",
+        "id": "feature-to-test-radiobutton-operations;check-that-status-of-radiobuttons-is-correctly-shown-when-the-reset-button-is-pressed",
+        "after": [
+          {
+            "result": {
+              "duration": 157433000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 824040000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on radiobutton selection page",
+            "match": {
+              "location": "StepDefinitions.RadiobuttonSteps.user_is_on_radiobutton_selection_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61968000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a radiobutton",
+            "match": {
+              "location": "StepDefinitions.RadiobuttonSteps.user_selects_a_radiobutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 230290000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "presses the Reset and Check buttons",
+            "match": {
+              "location": "StepDefinitions.RadiobuttonSteps.presses_the_reset_and_Check_buttons()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26653000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "status text shows that no radiobutton is selected",
+            "match": {
+              "location": "StepDefinitions.RadiobuttonSteps.status_text_shows_that_no_radiobutton_is_selected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test radiobutton operations",
+    "description": "",
+    "id": "feature-to-test-radiobutton-operations",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/radiobutton.feature",
+    "tags": []
+  }
+]
